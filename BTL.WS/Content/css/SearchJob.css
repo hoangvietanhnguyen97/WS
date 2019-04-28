@@ -1,0 +1,326 @@
+﻿html {
+    height: 100%;
+}
+
+.body {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+header {
+    height: 60px;
+    background-color: orangered;
+    position: relative;
+    display: flex;
+}
+
+header a{
+    color:black;
+    text-decoration:none
+}
+
+.wrapper {
+    width: 100px;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+    .wrapper img {
+        min-width: 100px;
+        height: auto;
+        width: 68%;
+        padding-top: 2px;
+    }
+
+header .search {
+    position: relative;
+    height: 100%;
+    width: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.search input {
+    height: 61%;
+    width: 100%;
+    margin-top: 8px;
+    padding-left: 8px;
+}
+
+.search .icon-search {
+    /* border-left: 1px solid; */
+    background-color: #f5f6f7;
+    top: 9px;
+    right: -11px;
+    position: absolute;
+    width: 36px;
+    height: 58%;
+    cursor: pointer;
+}
+
+.Acc-logo {
+    /* height: 100%; */
+    width: 17%;
+    position: absolute;
+    right: 0;
+    text-align: center;
+}
+
+    .Acc-logo .icon-signup {
+        padding-top: 5px;
+        text-align: center;
+    }
+
+    .Acc-logo .text-account {
+        color: white;
+        cursor: pointer;
+        /* padding-top: 3px; */
+        margin-left: 77px;
+        display: flex;
+        text-align: center;
+    }
+
+.text-account:hover {
+    text-decoration: underline
+}
+
+.text-noti {
+    color: white;
+    margin-top: -5px;
+    cursor: pointer;
+}
+
+    .text-noti:hover {
+        text-decoration: underline
+    }
+
+.icon-noti {
+    text-align: center;
+}
+
+main {
+    background-color: #f8effb;
+    height: calc(100% - 60px);
+    overflow-y:auto
+}
+
+.main-header {
+    display: flex;
+    text-align: center;
+    border-bottom: 1px solid #e2dee3;
+    height: 50px;
+    font-size: 25px;
+    background-color: white
+}
+
+    .main-header a{
+        color:black;
+        text-decoration:none
+    }
+
+    .main-header > div {
+        margin-top: 3px;
+        cursor: pointer
+    }
+
+.home-page {
+    display: flex;
+    margin-left: 20%
+}
+
+.insert-infor {
+    margin-top: 10px;
+    background-color: white;
+    width: 100%;
+    border: 1px solid #dcdadd;
+}
+
+.select-insert {
+    display: flex;
+}
+
+    .select-insert input {
+        padding-left: 5px;
+        width: 400px;
+        height: 40px;
+        font-size:24px
+    }
+
+.insert-arrowdown {
+    width: 25px;
+    margin-left: -25px;
+    cursor: pointer;
+}
+
+.time-update {
+    margin-left: 10%;
+    position:relative
+}
+
+.insert-form{
+    margin-left:20%;
+}
+
+.insert-salary{
+    margin-left:10%;
+    position:relative
+}
+
+.career {
+    margin-left: 20%;
+    position:relative
+}
+
+.type-job{
+    margin-left:30px
+}
+
+.type-job input {
+    margin-left: 40px
+}
+
+.insert-address{
+    display:flex;
+    margin-left:10%;
+    margin-top:40px
+}
+
+.insert-address > div{
+    margin-left:10%;
+    display:flex
+}
+
+    .insert-address input{
+        padding-left:5px
+    }
+
+    .address-arrow {
+        margin-left: -22px !important;
+        cursor: pointer
+    }
+
+.company-infor {
+    border: 1px solid #dcdadd;
+    width: 90%;
+    background-color: white;
+    margin-left: 5%;
+    margin-top: 20px;
+    font-size:20px;
+    position:relative
+}
+
+.company-infor > div{
+    display: flex
+}
+
+.company-infor div{
+    margin-left:10px;
+    margin-top:10px
+}
+
+#btn-infor {
+    bottom: 17px;
+    position: absolute;
+    right: 30px;
+}
+
+.select-time-update {
+    position: absolute;
+    border: 1px solid #a9a9a9;
+    font-size: 24px;
+    margin-top: 40px;
+    width: 400px;
+    display: none;
+    z-index: 100
+}
+
+    .select-time-update div {
+        height: 40px;
+        cursor: pointer;
+        background-color: white;
+        border-bottom: 1px solid #a9a9a9;   
+        padding-left:5px
+    }
+
+        .select-time-update div:hover {
+            color: white;
+            background-color: #ff4500
+        }
+
+.select-salary {
+    position: absolute;
+    border: 1px solid #a9a9a9;
+    font-size: 24px;
+    margin-top: 40px;
+    width: 400px;
+    z-index:100;
+    background-color:white;
+    display:none;
+
+}
+
+    .select-salary div {
+        cursor: pointer;
+        border-bottom: 1px solid #a9a9a9;
+        padding-left: 5px
+    }
+
+        .select-salary div:hover {
+            color: white;
+            background-color: #ff4500
+        }
+
+.select-career {
+    position: absolute;
+    border: 1px solid #a9a9a9;
+    font-size: 24px;
+    margin-top: 40px;
+    width: 400px;
+    z-index: 100;
+    background-color: white;
+    display: none;
+    height:200px;
+    overflow-y:scroll
+}
+
+    .select-career div {
+        cursor: pointer;
+        border-bottom: 1px solid #a9a9a9;
+        padding-left: 5px
+    }
+
+        .select-career div:hover {
+            color: white;
+            background-color: #ff4500
+        }
+
+.select-city {
+    position: absolute;
+    background-color: white;
+    z-index: 100;
+    border: 1px solid #a9a9a9;
+    width: 178px;
+    top: 33px;
+    height: 200px;
+    overflow-y:scroll;
+    display:none
+}
+
+    .select-city div {
+        border-bottom: 1px solid #a9a9a9;
+        height:33px;
+        padding:5px;
+        cursor:pointer;        
+    }
+
+        .select-city div:hover {
+            color: white;
+            background-color: #ff4500
+        }

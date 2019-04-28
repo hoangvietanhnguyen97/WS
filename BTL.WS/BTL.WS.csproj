@@ -135,14 +135,27 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\css\bootstrap.min.js" />
+    <Content Include="Content\css\CompanyDetail.css" />
+    <Content Include="Content\css\Home.css" />
     <Content Include="Content\css\Login.css" />
+    <Content Include="Content\css\SearchJob.css" />
     <Content Include="Content\css\SignUp.css" />
     <Content Include="Content\css\bootstrap.min.css" />
+    <Content Include="Content\image\101791-200.png" />
+    <Content Include="Content\image\1538346433.png" />
+    <Content Include="Content\image\facebook.gif" />
+    <Content Include="Content\image\plant.png" />
+    <Content Include="Content\image\v2_ppupgf.png" />
     <Content Include="Content\JS\bootstrap.min.js" />
     <Content Include="Content\JS\Login.js" />
+    <Content Include="Content\JS\SearchJob.js" />
     <Content Include="Content\JS\SignUp.js" />
     <Content Include="Global.asax" />
+    <Content Include="View\DetailCompany.html" />
+    <Content Include="View\Home.html" />
     <Content Include="View\Login.html" />
+    <Content Include="View\Search.html" />
+    <Content Include="View\SearchJob.html" />
     <Content Include="View\SignUp.html" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
